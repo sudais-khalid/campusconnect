@@ -19,6 +19,8 @@ A smart complaint and feedback platform for universities. Students report proble
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-installable-5A0FC8?logo=pwa&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?logo=vercel&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-1f7148.svg)](LICENSE)
+[![CI](https://github.com/sudais-khalid/campusconnect/actions/workflows/ci.yml/badge.svg)](https://github.com/sudais-khalid/campusconnect/actions/workflows/ci.yml)
 
 </div>
 
@@ -145,6 +147,14 @@ public/           service worker and app icons
 | Mobile | [PWA & mobile](docs/07-pwa-and-mobile.md) |
 | Operations | [Deployment & operations](docs/09-deployment-and-operations.md), [Backend guide](docs/12-backend-guide.md) |
 | Design | [Frontend design system](docs/13-frontend-design.md) |
+
+## Contributing and security
+
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Please report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 ## Team
 
