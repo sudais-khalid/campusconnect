@@ -1,0 +1,38 @@
+name: Bug report
+description: Something does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Security problems must not be reported here. Use the Security tab (private report) instead."
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Sign in as a department admin\n2. Open ...\n3. ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Signed in as
+      options: [Student, Department admin, Super admin, Not signed in]
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: "Android 14, Chrome 131 (installed app)"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Remove any names, emails or complaint text that belong to real people.
